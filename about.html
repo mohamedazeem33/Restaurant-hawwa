@@ -4,17 +4,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Your Restaurant Name</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>More About Us </title>
+    
 </head>
+<style>
+    body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+}
+
+header {
+    background-color: #494D5F;
+    color: black;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+section {
+    margin: 40px 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+    .family{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+</style>
 <body>
 
     <header>
-        <h1>Your Restaurant Name</h1>
+        <h1>Hawwa's Kitchen</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
+                <li><a href="#menu">Menu</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
@@ -22,10 +78,23 @@
     </header>
 
     <section id="about">
-        <h2>About Us</h2>
+        <h2>More About Us</h2>
         <p>Hawwa Begam - Owner of Hawwa's Kitchen</p>
         <p>We running branches in chennai and coimbatore...</p>
     </section>
+
+    <section id="family">
+        <h2>Brand Ambassador </h2>
+        <img src="./amma image.jpg" alt="hawwa begam">
+        <h3>Hawwa Begam BSC.CS</h3>
+
+        <h2>CEO</h2>
+        <img src="./naina mohamed.jpg" alt="Naina">
+        <h3>Naina mohamed BE.CIVIL</h3>
+
+    </section>
+
+
 
     <footer>
         <p>&copy; 2023 Hawwa's Kitchen. All rights reserved.</p>
